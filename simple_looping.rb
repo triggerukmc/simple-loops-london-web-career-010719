@@ -34,12 +34,11 @@ def until_iterator(number_of_times)
     iteration += 1
   end
 end
-=begin
+
 def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   for number_of_times do 
     puts phrase
   end
 end
-=end
 
