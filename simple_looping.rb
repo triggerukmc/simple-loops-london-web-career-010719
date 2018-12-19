@@ -36,9 +36,9 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  qty = 0
+  range = 1..number_of_times
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  for qty in number_of_times
+  for times in range
     puts phrase
 end
 end
